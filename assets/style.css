@@ -1,0 +1,201 @@
+header {
+	margin-right: 17%;
+	margin-left: 10%;
+}
+
+.myName {
+	float: left;
+	color: white;
+	background-color: #4aaaa5;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+nav {
+	float: right;
+	position: relative;
+	top: 20px;
+	color: #9da1ae;
+	font-family: Arial;
+}
+
+.space {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+article {
+	float: left;
+	background-color: white;
+	width: 47%;
+	margin-left: 5%;
+	margin-top: 35px;
+	margin-right: 3%;
+	margin-bottom: 30px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+footer {
+	border-top: 10px solid #4aaaa5;
+	position: relative;
+	background-color: grey;
+	height: 90px;
+	clear: right;
+	clear: left;
+	
+}
+
+aside {
+	background-color: white;
+
+	width: 20%;
+	margin-left: 3%;
+	margin-top: 35px;
+	margin-right: 5%;
+	margin-bottom: 30px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	float: left;	
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	color: white;
+	background-color: #4aaaa5;	
+	margin-left: 30px;
+	height: 40px;
+	width: 120px;
+	border-style: none;
+	font-family: "Arial";
+	font-size: 12pt;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+.connectwithme {
+	color: #4aaaa5;
+	font-size: 16pt;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 25px;	
+}
+
+
+
+.mainbody {
+	clear: right;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: absolute;
+	top: 75px;
+	border-top: 3px solid #dddddd;
+	background-image: url("../images/concrete.png");
+	
+}
+
+.articleTitle {
+	border-bottom: 3px solid #dddddd;
+	color: #4aaaa5;
+	font-size: 24pt;
+	padding-bottom: 25px;
+}
+
+.maincontent {
+	color: #777777;
+	line-height: 24px;
+	font-family: "Helvetica";
+
+}
+
+.picture {
+	float: left;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+.footerfont {
+	color: rgb(204,200,191);
+	font-family: Arial;
+	font-size: 80%;
+	line-height: 60px;
+	text-align: center;
+	border: 3px solid grey;
+}
+
+.image {
+	height: 75px;
+	width: 75px;
+}
+
+.portfolioitems {
+	padding-left: 0px;
+	
+	float: left;
+	margin-bottom: -50px;
+	margin-right: 4%;
+}
+
+.portfolioitemsright {
+	padding-left: 0px;
+	
+	float: right;
+	margin-bottom: -50px;
+	margin-right: 0%;
+}
+
+
+
+.imagelabel {
+	color: white;
+	background-color: #4aaaa5;
+	height: 40px;
+	text-align: center;
+	position: relative;
+	bottom: 75px;
+}
+
+.formlabel {
+	color: #777777;
+	font-family: "Arial";
+	line-height: 0px;
+	font-size: 14pt;
+	margin-left: 0%;
+
+}
+
+.inputfields {
+	border-color: lightgray;
+	width: 90%;
+	margin-left: 0%;
+	margin-right: 5%;
+	border-style: solid;
+	height: 30px;
+	padding-left: 15px;
+}
+
+.textfields {
+	border-color: lightgray;
+	width: 90%;
+	margin-left: 0%;
+	margin-right: 5%;
+	border-style: solid;
+	padding-left: 15px;
+}
