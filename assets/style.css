@@ -13,20 +13,6 @@ header {
 
 }
 
-.imageLabel {
-	height: 40px;
-	position: relative;
-	bottom: 75px;
-	width: 260px;
-}
-
-.strongText {
-	color: white;
-	background-color: #4aaaa5;
-	text-align: center;
-}
-
-
 
 nav {
 	float: right;
@@ -81,6 +67,19 @@ aside {
 	
 }
 
+button {
+	margin-left: 30px;
+	height: 40px;
+	width: 120px;
+	border-style: none;
+	font-family: "Arial";
+	font-size: 12pt;
+	margin-top: 10px;
+	/*color: white;	
+	background-color: #4aaaa5;
+	text-align: center;*/
+}
+
 .picture {
 	float: left;
 	padding-right: 25px;
@@ -108,48 +107,12 @@ aside {
 	border-bottom: 1px solid #dddddd;		
 }
 
-
-
-/*End the main body*/
-
-
-/*The footer*/
-footer {
-	border-top: 10px solid #4aaaa5;
-	position: relative;
-	background-color: grey;
-	height: 90px;
-	clear: right;
-	clear: left;
-	
-}
-
-
-/*End the footer*/
-
-
-button {
-	color: white;
-	background-color: #4aaaa5;	
-	margin-left: 30px;
+.imageLabel {
 	height: 40px;
-	width: 120px;
-	border-style: none;
-	font-family: "Arial";
-	font-size: 12pt;
-	margin-top: 10px;
+	position: relative;
+	bottom: 75px;
+	width: 260px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .maincontent {
 	color: #777777;
@@ -157,18 +120,6 @@ button {
 	font-family: "Helvetica";
 
 }
-
-
-
-.footerfont {
-	color: rgb(204,200,191);
-	font-family: Arial;
-	font-size: 80%;
-	line-height: 60px;
-	text-align: center;
-	border: 3px solid grey;
-}
-
 
 .image {
 	height: auto;
@@ -213,3 +164,57 @@ button {
 	border-style: solid;
 	padding-left: 15px;
 }
+
+
+
+
+/*End the main body*/
+
+
+/*The footer*/
+footer {
+	border-top: 10px solid #4aaaa5;
+	position: relative;
+	background-color: grey;
+	height: 90px;
+	clear: right;
+	clear: left;
+	
+}
+
+.footerfont {
+	color: rgb(204,200,191);
+	font-family: Arial;
+	font-size: 80%;
+	line-height: 60px;
+	text-align: center;
+	border: 3px solid grey;
+}
+
+
+/*End the footer*/
+
+
+/*Shared across different areas classes*/
+.strongText {
+	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
