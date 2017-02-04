@@ -1,44 +1,119 @@
+/*The header*/
+
 header {
-	margin-right: 17%;
-	margin-left: 10%;
+	padding-right: 10%;
+	padding-left: 10%;
 }
+
 
 .myName {
 	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+
+}
+
+.imageLabel {
+	height: 40px;
+	position: relative;
+	bottom: 75px;
+	width: 260px;
+}
+
+.strongText {
 	color: white;
 	background-color: #4aaaa5;
-	padding-left: 20px;
-	padding-right: 20px;
 	text-align: center;
 }
+
+
 
 nav {
 	float: right;
 	position: relative;
-	top: 20px;
+	top: 30px;
 	color: #9da1ae;
 	font-family: Arial;
 }
 
 .space {
-	padding-right: 15px;
-	padding-left: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
+/*End the header*/
+
+
+/*The main body*/
+main {
+	position: absolute;	
+	top: 87px;
+	border-top: 3px solid #dddddd;
+	background-image: url("../images/concrete.png");
+	width: 100%;
+}
+
 
 article {
 	float: left;
 	background-color: white;
-	width: 47%;
-	margin-left: 5%;
+	width: 40%;
 	margin-top: 35px;
-	margin-right: 3%;
 	margin-bottom: 30px;
+
+	margin-left: 10%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 25px;
+	padding-bottom: 25px;	
+}
+
+aside {
+	float: right;	
+	background-color: white;
+	width: 20%;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	margin-right: 10%;
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	
 }
 
+.picture {
+	float: left;
+	padding-right: 25px;
+}
+
+.bodyTitle {
+	color: #4aaaa5;
+	font-size: 24pt;
+	padding-bottom: 25px;
+	border-bottom: 3px solid #dddddd;
+}
+
+.inputFields {
+	border-color: lightgray;
+	width: 90%;
+	margin-left: 0%;
+	margin-right: 5%;
+	border-style: solid;
+	height: 30px;
+	padding-left: 15px;
+}
+
+#connectWithMe {
+	font-size: 16pt;
+	border-bottom: 1px solid #dddddd;		
+}
+
+
+
+/*End the main body*/
+
+
+/*The footer*/
 footer {
 	border-top: 10px solid #4aaaa5;
 	position: relative;
@@ -49,24 +124,9 @@ footer {
 	
 }
 
-aside {
-	background-color: white;
 
-	width: 20%;
-	margin-left: 3%;
-	margin-top: 35px;
-	margin-right: 5%;
-	margin-bottom: 30px;
-	padding-left: 1%;
-	padding-right: 1%;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	float: left;	
-}
+/*End the footer*/
 
-a {
-	text-decoration: none;
-}
 
 button {
 	color: white;
@@ -86,33 +146,10 @@ button {
 
 
 
-.connectwithme {
-	color: #4aaaa5;
-	font-size: 16pt;
-	border-bottom: 1px solid #dddddd;
-	padding-bottom: 25px;	
-}
 
 
 
-.mainbody {
-	clear: right;
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-	position: absolute;
-	top: 75px;
-	border-top: 3px solid #dddddd;
-	background-image: url("../images/concrete.png");
-	
-}
 
-.articleTitle {
-	border-bottom: 3px solid #dddddd;
-	color: #4aaaa5;
-	font-size: 24pt;
-	padding-bottom: 25px;
-}
 
 .maincontent {
 	color: #777777;
@@ -120,14 +157,6 @@ button {
 	font-family: "Helvetica";
 
 }
-
-.picture {
-	float: left;
-	padding-right: 25px;
-	padding-bottom: 10px;
-}
-
-
 
 
 
@@ -140,37 +169,33 @@ button {
 	border: 3px solid grey;
 }
 
-.image {
-	height: 75px;
-	width: 75px;
+.images {
+	background-color: blue;
 }
 
-.portfolioitems {
-	padding-left: 0px;
-	
+.image {
+	height: 75px;
+	width: 32.33%;
+}
+
+
+.portfolioItems {
+	padding-left: 0px;	
 	float: left;
 	margin-bottom: -50px;
 	margin-right: 4%;
+	width: 30%;
 }
 
-.portfolioitemsright {
-	padding-left: 0px;
-	
+.portfolioItemsRight {
+	padding-left: 0px;	
 	float: right;
 	margin-bottom: -50px;
-	margin-right: 0%;
+	margin-right: 8%;
+	width: 40%;
 }
 
 
-
-.imagelabel {
-	color: white;
-	background-color: #4aaaa5;
-	height: 40px;
-	text-align: center;
-	position: relative;
-	bottom: 75px;
-}
 
 .formlabel {
 	color: #777777;
@@ -181,15 +206,7 @@ button {
 
 }
 
-.inputfields {
-	border-color: lightgray;
-	width: 90%;
-	margin-left: 0%;
-	margin-right: 5%;
-	border-style: solid;
-	height: 30px;
-	padding-left: 15px;
-}
+
 
 .textfields {
 	border-color: lightgray;
