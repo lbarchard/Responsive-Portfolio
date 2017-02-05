@@ -1,5 +1,6 @@
 /*The header*/
 
+
 header {
 	padding-right: 16.66%;
 	padding-left: 8.33%;
@@ -22,6 +23,10 @@ nav {
 	font-family: Arial;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 .space {
 	margin-right: 10px;
 	margin-left: 10px;
@@ -29,10 +34,16 @@ nav {
 /*End the header*/
 
 
+
+.folio {
+	width: 100%;
+}
+
+
+
 /*The main body*/
 main {
-	position: absolute;	
-	top: 87px;
+	clear: both;
 	border-top: 3px solid #dddddd;
 	background-image: url("../images/concrete.png");
 	width: 100%;
@@ -102,6 +113,16 @@ button {
 	padding-left: 15px;
 }
 
+.messageFields {
+	border-color: lightgray;
+	width: 90%;
+	margin-left: 0%;
+	margin-right: 5%;
+	border-style: solid;
+	height: 120px;
+	padding-left: 15px;	
+}
+
 #connectWithMe {
 	font-size: 16pt;
 	border-bottom: 1px solid #dddddd;		
@@ -111,7 +132,7 @@ button {
 	height: 40px;
 	position: relative;
 	bottom: 75px;
-	width: 260px;
+	width: 100%;
 }
 
 .maincontent {
@@ -131,16 +152,16 @@ button {
 	padding-left: 0px;	
 	float: left;
 	margin-bottom: -50px;
-	margin-right: 4%;
-	width: 30%;
+	width: 48%;
+	height: auto;
 }
 
 .portfolioItemsRight {
 	padding-left: 0px;	
 	float: right;
 	margin-bottom: -50px;
-	margin-right: 8%;
-	width: 40%;
+	width: 48%;
+	height: auto;
 }
 
 
@@ -173,12 +194,10 @@ button {
 
 /*The footer*/
 footer {
+	clear: both;
 	border-top: 10px solid #4aaaa5;
-	position: relative;
 	background-color: grey;
 	height: 90px;
-	clear: right;
-	clear: left;
 	
 }
 
@@ -188,8 +207,8 @@ footer {
 	font-size: 80%;
 	line-height: 60px;
 	text-align: center;
-	border: 3px solid grey;
-}
+/*	border: 3px solid grey;
+*/}
 
 
 /*End the footer*/
@@ -204,17 +223,125 @@ footer {
 
 
 
+/*Responsive design*/
+@media screen and (max-width: 980px) {
+	.picture {
+		width: 100%;
+		float: none;
+	}
+	
+	.image {
+		width: 31%
+	}	
+
+	#connectWithMe{
+		font-size: 17px
+	}
+
+	.portfolioItemsRight {
+		float: none;
+		width: 100%
+	}
+
+	.portfolioItems {
+		float: none;
+		width: 100%
+	}
+
+
+}
 
 
 
+@media screen and (max-width: 768px) {
+	article {
+		width: 75%;
+		position: relative;
+	}
 
 
+	aside {
+		clear: both;
+		float: none;
+		width: 75%;
+		margin-left: 8.3333%;
+		bottom: 10px;
+	}
+
+	.picture {
+		float: left;
+		width: 41.66%;
+	}
+
+	.image {
+		width: 32.0%
+	}	
+
+	#connectWithMe{
+		font-size: 24px
+	}
+
+	.portfolioItemsRight {
+		float: right;
+		width: 48%;
+	}
+
+	.portfolioItems {
+		float: left;
+		width: 48%;
+	}
 
 
+}
 
 
+@media screen and (max-width: 640px) {
+	.picture {
+		width: 100%;
+		float: none;
+	}
+
+	.myName {
+		width: 100%;
+		margin-left: 0;
+		margin-right:0;
+		height:80px;
+		padding-top: 1px;
+	}
+
+	nav {
+		float: none;
+		clear: both;
+		color: #9da1ae;
+		font-family: Arial;
+		height: 50px;
+		padding-bottom: 20px;
+		text-align: center;
+
+	}
+
+	header {
+		padding-right: 0%;
+		padding-left: 0%;
+	}
+
+	.space {
+		margin-right: 10%;
+		margin-left: 10%;
+		color: white;
+	}
+
+	.portfolioItemsRight {
+		float: none;
+		width: 100%;
+	}
+
+	.portfolioItems {
+		float: none;
+		width: 100%;
+	}
 
 
-
+}
 
 
